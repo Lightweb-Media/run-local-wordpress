@@ -1,16 +1,16 @@
 # run-local-wordpress
 
-Create a local WordPress instance for testing purposes with SQLite in a **few seconds**.
+Create a local WordPress instance for testing purposes with a SQLite database in a **few seconds**.
 
-* no MySQL server needed
+* no database server (MySQL, MariaDB) needed
 * no Apache needed, only PHP (with SQLite enabled)
 * WP-CLI is shipped with this
 
 ## Setup (Linux, MacOS)
 
-* Download or locally clone this project
+* [Download](https://github.com/DanielRuf/run-local-wordpress/archive/refs/heads/main.zip) and extract or locally clone this project
 * Go into the folder (via terminal and `cd` or manually)
-* Execute `run-local-wordpress.sh`
+* Execute `./run-local-wordpress.sh` or `bash run-local-wordpress.sh`
 * Open `localhost:8080` in your browser
 
 ## Setup (Windows - untested)
