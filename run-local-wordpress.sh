@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 # wp-cli basic install script with sqlite database.
 # based on https://gist.github.com/erm3nda/8444f8536b309ae198cb
 
