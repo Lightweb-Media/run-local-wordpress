@@ -10,7 +10,7 @@ locale=${1:-$d_locale}
 d_title='DEV'
 title=${2:-$d_title}
 
-d_admin_email='admin@test.de'
+d_admin_email='admin@example.com'
 admin_email=${3:-$d_admin_email}
 
 d_admin_name='admin'
@@ -40,7 +40,7 @@ curl -verbose -o $(pwd)/wp-content/db.php https://raw.githubusercontent.com/aaem
 
 
 # Install downloaded wordpress, set real data and set desired url:port
-php wp-cli.phar core install --title="$title" --admin_name="$admin_name" --admin_email="$admin_email" --admin_password="$admin_email" --url="http://localhost:$port"
+php wp-cli.phar core install --title="$title" --admin_name="$admin_name" --admin_email="$admin_email" --admin_password="$admin_pass" --url="http://localhost:$port"
 
 # Run the server. Would run using PHP -S builtin server
 # Remember to edit the right php.ini located at same dir than php.exe and not the one with apache's files
